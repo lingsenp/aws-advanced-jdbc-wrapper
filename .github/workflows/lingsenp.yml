@@ -15,7 +15,7 @@ on:
 jobs:
   standard-integration-tests:
     name: 'Run standard container integration tests'
-    runs-on: lingsenp
+    runs-on: gamma
     steps:
       - name: 'Clone repository'
         uses: actions/checkout@v3
